@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all 0.2s linear;
+    border: none;
+    outline: none;
+}
+body{
+    background-image: url(trees-g4c4b6d367_1920.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container .counter{
+background-color: #fff;
+padding: 2.5rem;
+border-radius: 1rem;
+box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+.container .counter p{
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 300;
+  line-height: 1;
+}
+.container .buttons{
+    text-align: center;
+    margin-top: 2rem;
+}
+.container .buttons button{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.container .buttons button#sub{
+    background-color: orange;
+    color: #fff;
+}
+.container .buttons button#add{
+    background-color:rgb(51, 118, 232);
+    color: #fff;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+   text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    font-weight: bolder;
+}
